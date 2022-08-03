@@ -72,10 +72,10 @@ async def init():
     except:
         pass
     await Yukki.decorators()
-    LOGGER("YukkiMusic").info("Emo Bot Started Successfully")
+    LOGGER("YukkiMusic").info("Semmy Vc Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("YukkiMusic").info("Stopping Emo Bot! GoodBye")
+    LOGGER("YukkiMusic").info("Stopping Semmy Bot! GoodBye")
